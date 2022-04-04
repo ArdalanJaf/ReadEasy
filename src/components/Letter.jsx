@@ -5,9 +5,14 @@ import gsap from "gsap";
 const Letter = (props) => {
   const { letter } = props;
 
+  const interact = (data, movement) => {
+    textToSpeech(data);
+    movement();
+  };
+
   return (
     <>
-      <h2 onClick={() => shake(e)}>{alphabet[letter].title}</h2>
+      <h2 onClick={() => interact(letter, shake)}>{alphabet[letter].title}</h2>
 
       <img
         onClick={() => textToSpeech(alphabet[letter].animal)}

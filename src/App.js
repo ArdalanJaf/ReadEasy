@@ -10,17 +10,6 @@ const App = () => {
   const [letter, setLetter] = useState();
 
   const onKeyDown = (e) => {
-    // switch (e.key) {
-    //   case "a":
-    //     setScreen(1);
-    //     break;
-    //   case "b":
-    //     setScreen(2);
-    //     break;
-    //   case "c":
-    //     setScreen(3);
-    //     break;
-    // }
     setLetter(e.key);
   };
 
