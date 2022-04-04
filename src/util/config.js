@@ -3,31 +3,37 @@ export const alphabet = {
     title: "A a",
     img: "https://naldzgraphics.net/wp-content/uploads/2014/03/1-alligator-a.jpg",
     animal: "aligator",
+    phrase: "An amazing alligator ate an apple",
   },
   b: {
     title: "B b",
     img: "https://naldzgraphics.net/wp-content/uploads/2014/03/2-baboon-b.jpg",
     animal: "baboon",
+    phrase: "Barry Baboon bangs bongos",
   },
   c: {
     title: "C c",
     img: "https://naldzgraphics.net/wp-content/uploads/2014/03/3-chameleon-c.jpg",
     animal: "chameleon",
+    phrase: "Chameleons carry cherries",
   },
   d: {
     title: "D d",
     img: "https://naldzgraphics.net/wp-content/uploads/2014/03/4-dolphin-d.jpg",
     animal: "dolphin",
+    phrase: "Drama dolphin dives deep",
   },
   e: {
     title: "E e",
     img: "https://naldzgraphics.net/wp-content/uploads/2014/03/5-elephant-e.jpg",
     animal: "elephant",
+    phrase: "Edward Elephant explains equations",
   },
   f: {
     title: "F f",
     img: "https://naldzgraphics.net/wp-content/uploads/2014/03/6-fox-f.jpg",
     animal: "fox",
+    phrase: "Fancy fox forgets fridays",
   },
   g: {
     title: "G g",

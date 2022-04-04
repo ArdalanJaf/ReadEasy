@@ -18,7 +18,7 @@ const App = () => {
       tabIndex="0"
       style={{ height: "100vh" }}
     >
-      <Welcome onKeyDown={onKeyDown} />
+      <Welcome onKeyDown={onKeyDown} letter={letter} />
       {letter && <Letter letter={letter} />}
     </div>
   );
