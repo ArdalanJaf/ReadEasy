@@ -1,12 +1,10 @@
-import LetterA from "./components/LetterA";
-import LetterB from "./components/LetterB";
-import LetterC from "./components/LetterC";
 import { useState } from "react";
 import Welcome from "./components/Welcome";
 import Letter from "./components/Letter";
+import "./normalize.css";
+import "./App.scss";
 
 const App = () => {
-  const [screen, setScreen] = useState(0);
   const [letter, setLetter] = useState();
 
   const onKeyDown = (e) => {
@@ -14,8 +12,13 @@ const App = () => {
   };
 
   return (
-    <div onKeyDown={onKeyDown} tabIndex="0" style={{ height: "100vh" }}>
-      {screen === 0 && <Welcome onKeyDown={onKeyDown} />}
+    <div
+      className="container"
+      onKeyDown={onKeyDown}
+      tabIndex="0"
+      style={{ height: "100vh" }}
+    >
+      <Welcome onKeyDown={onKeyDown} />
       {letter && <Letter letter={letter} />}
     </div>
   );

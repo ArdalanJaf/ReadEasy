@@ -11,17 +11,18 @@ const Letter = (props) => {
   };
 
   return (
+    //container
     <>
       <h2 onClick={() => interact(letter, shake)} className="title">
         {alphabet[letter].title}
       </h2>
-
-      <img
-        onClick={() => interact(alphabet[letter].animal, expand)}
-        src={alphabet[letter].img}
-        alt={letter.animal}
-        className="img"
-      />
+      <div className="img">
+        <img
+          onClick={() => interact(alphabet[letter].animal, expand)}
+          src={alphabet[letter].img}
+          alt={letter.animal}
+        />
+      </div>
     </>
   );
 };
