@@ -1,5 +1,3 @@
-import { svg } from "../util/config";
-
 const Welcome = (props) => {
   return (
     <div className="welcome">

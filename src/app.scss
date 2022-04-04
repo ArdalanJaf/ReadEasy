@@ -95,3 +95,36 @@ body {
     font-size: 30px;
   }
 }
+
+.sillySentence {
+  .phrase {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    cursor: pointer;
+  }
+
+  .speaker {
+    top: 0;
+    right: -75px;
+  }
+
+  button {
+    background-color: rgb(246, 228, 196);
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    margin-top: 20px;
+    color: #796a36;
+  }
+
+  .completedLetters {
+    text-transform: uppercase;
+    margin: 20px;
+    font-size: 126px;
+    font-family: "Cabin Sketch", cursive;
+    color: #796a36;
+  }
+}

@@ -5,10 +5,15 @@ import "./normalize.css";
 import "./App.scss";
 
 const App = () => {
-  const [letter, setLetter] = useState();
+  const [letter, setLetter] = useState("");
 
   const onKeyDown = (e) => {
-    setLetter(e.key);
+    console.log(e.key);
+    const letterNumber = /^[a-zA-Z]+$/;
+    if (e.key.match(letterNumber) && e.key.length === 1) setLetter(e.key);
+    else {
+      setLetter("");
+    }
   };
 
   return (
@@ -26,5 +31,3 @@ const App = () => {
 
 export default App;
 
-// letter input needs joi validation incase of non-letter-keys
-// accessibility

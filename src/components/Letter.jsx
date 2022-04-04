@@ -1,6 +1,5 @@
 import { alphabet } from "../util/config";
 import { textToSpeech, shake, expand } from "../util/utils";
-import gsap from "gsap";
 import SillySentence from "./SillySentence";
 
 const Letter = (props) => {
@@ -12,14 +11,14 @@ const Letter = (props) => {
   };
 
   return (
-    //container
+
     <>
       <div className="letterContainer">
         <div className="header" onClick={() => interact(letter, shake)}>
           <h2 className="title">{alphabet[letter].title}</h2>
           <img
             className="speaker"
-            src="https://www.svgrepo.com/show/93256/volume.svg"
+            src="https://www.svgrepo.com/show/93256/volume.svg" alt=""
           />
         </div>
         <div
@@ -33,7 +32,7 @@ const Letter = (props) => {
           />
           <img
             className="speaker"
-            src="https://www.svgrepo.com/show/93256/volume.svg"
+            src="https://www.svgrepo.com/show/93256/volume.svg" alt=""
           />
         </div>
       </div>
