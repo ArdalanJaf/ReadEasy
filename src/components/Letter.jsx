@@ -11,14 +11,14 @@ const Letter = (props) => {
   };
 
   return (
-
     <>
       <div className="letterContainer">
         <div className="header" onClick={() => interact(letter, shake)}>
           <h2 className="title">{alphabet[letter].title}</h2>
           <img
             className="speaker"
-            src="https://www.svgrepo.com/show/93256/volume.svg" alt=""
+            src="https://www.svgrepo.com/show/93256/volume.svg"
+            alt=""
           />
         </div>
         <div
@@ -32,7 +32,8 @@ const Letter = (props) => {
           />
           <img
             className="speaker"
-            src="https://www.svgrepo.com/show/93256/volume.svg" alt=""
+            src="https://www.svgrepo.com/show/93256/volume.svg"
+            alt=""
           />
         </div>
       </div>

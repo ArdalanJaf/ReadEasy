@@ -2,7 +2,7 @@ import { useState } from "react";
 import Welcome from "./components/Welcome";
 import Letter from "./components/Letter";
 import "./normalize.css";
-import "./App.scss";
+import "./app.scss";
 
 const App = () => {
   const [letter, setLetter] = useState("");
@@ -30,4 +30,3 @@ const App = () => {
 };
 
 export default App;
-
