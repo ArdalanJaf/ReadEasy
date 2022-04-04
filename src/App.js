@@ -27,11 +27,7 @@ const App = () => {
   return (
     <div onKeyDown={onKeyDown} tabIndex="0" style={{ height: "100vh" }}>
       {screen === 0 && <Welcome onKeyDown={onKeyDown} />}
-      {/* {screen === 1 && <LetterA />}
-      {screen === 2 && <LetterB />}
-      {screen === 3 && <LetterC />} */}
       {letter && <Letter letter={letter} />}
-      {/* <Letter letter={letter} /> */}
     </div>
   );
 };

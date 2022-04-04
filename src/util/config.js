@@ -2,6 +2,7 @@ export const alphabet = {
   a: {
     title: "A a",
     img: "https://naldzgraphics.net/wp-content/uploads/2014/03/1-alligator-a.jpg",
+    animal: "aligator",
   },
   b: {
     title: "B b",
