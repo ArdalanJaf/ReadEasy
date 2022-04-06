@@ -1,130 +1,131 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
+
 #root {
-  width: 100vw;
+	width: 100vw;
 }
+
 body {
-  background-color: rgb(255, 127, 80);
+	background-color: rgb(255, 127, 80);
 }
 
 .container {
-  max-width: 100%;
+	max-width: 100%;
 }
 
 .img {
-  width: 450px;
-  // margin: auto;
-  .animal {
-    width: 450px;
-    border-radius: 50px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  }
-  cursor: pointer;
-  position: relative;
-  .speaker {
-    top: 20px;
-    left: 10px;
-    right: 0;
-  }
+	width: 450px;
+	.animal {
+		width: 450px;
+		border-radius: 50px;
+		box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+			rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+			rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	}
+	cursor: pointer;
+	position: relative;
+	.speaker {
+		top: 20px;
+		left: 10px;
+		right: 0;
+	}
 }
 
 .speaker {
-  margin: auto;
-  display: block;
-  height: 60px;
-  position: absolute;
+	margin: auto;
+	display: block;
+	height: 60px;
+	position: absolute;
 }
 
 .letterContainer {
-  margin: 40px auto 0px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  max-width: 1200px;
+	margin: 40px auto 0px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	max-width: 1200px;
 }
 
 .header {
-  font-size: 160px;
-  color: rgb(246, 228, 196);
-  text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  cursor: pointer;
-  position: relative;
-  .speaker {
-    top: -160px;
-    left: 45px;
-    right: 0;
-  }
+	font-size: 160px;
+	color: rgb(246, 228, 196);
+	text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+		rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+		rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	cursor: pointer;
+	position: relative;
+	.speaker {
+		top: -160px;
+		left: 45px;
+		right: 0;
+	}
 }
 
 .welcome {
-  text-align: center;
-  font-family: "Cabin Sketch", cursive;
-  font-size: 20px;
-  margin-top: -80px;
-  h1 {
-    font-size: 140px;
-    color: rgb(246, 228, 196);
-    margin-bottom: 20px;
-  }
-  h2 {
-    margin-bottom: 10px;
-  }
+	text-align: center;
+	font-family: "Cabin Sketch", cursive;
+	font-size: 20px;
+	margin-top: -80px;
+	h1 {
+		font-size: 140px;
+		color: rgb(246, 228, 196);
+		margin-bottom: 20px;
+	}
+	h2 {
+		margin-bottom: 10px;
+	}
 }
 
 .sillySentence {
-  text-align: center;
-  margin-top: 75px;
-  font-size: 26px;
-  h3 {
-    color: rgb(246, 228, 196);
-    margin: 20px;
-    font-size: 40px;
-    text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  }
-  h4 {
-    font-family: "Cabin Sketch", cursive;
-    font-size: 30px;
-  }
+	text-align: center;
+	margin-top: 75px;
+	font-size: 26px;
+	h3 {
+		color: rgb(246, 228, 196);
+		margin: 20px;
+		font-size: 40px;
+		text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+			rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+			rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	}
+	h4 {
+		font-family: "Cabin Sketch", cursive;
+		font-size: 30px;
+	}
 }
 
 .sillySentence {
-  .phrase {
-    position: relative;
-    width: fit-content;
-    margin: auto;
-    cursor: pointer;
-  }
+	.phrase {
+		position: relative;
+		width: fit-content;
+		margin: auto;
+		cursor: pointer;
+	}
 
-  .speaker {
-    top: 0;
-    right: -75px;
-  }
+	.speaker {
+		top: 0;
+		right: -75px;
+	}
 
-  button {
-    background-color: rgb(246, 228, 196);
-    border: none;
-    padding: 15px;
-    border-radius: 30px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    margin-top: 20px;
-    color: #796a36;
-  }
+	button {
+		background-color: rgb(246, 228, 196);
+		border: none;
+		padding: 15px;
+		border-radius: 30px;
+		box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+			rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+		margin: 20px 0;
+		color: #796a36;
+	}
 
-  .completedLetters {
-    text-transform: uppercase;
-    margin: 20px;
-    font-size: 126px;
-    font-family: "Cabin Sketch", cursive;
-    color: #796a36;
-  }
+	.completedLetters {
+		text-transform: uppercase;
+		margin: 0 20px 20px 20px;
+		font-size: 126px;
+		font-family: "Cabin Sketch", cursive;
+		color: #796a36;
+	}
 }
