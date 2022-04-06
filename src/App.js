@@ -8,7 +8,6 @@ const App = () => {
   const [letter, setLetter] = useState("");
 
   const onKeyDown = (e) => {
-    console.log(e.key);
     const letterNumber = /^[a-zA-Z]+$/;
     if (e.key.match(letterNumber) && e.key.length === 1) setLetter(e.key);
     else {
